@@ -1,6 +1,6 @@
 /**/generated/
-deprecated/
 .ipynb_checkpoints/
 .idea
 comparison*.xlsx
 ~*
+/**/*.log
