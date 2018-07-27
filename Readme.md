@@ -10,6 +10,7 @@
 
 ## Results  
 Current best result: 19.3798 (MAE), Rank 89 as of July 27 - 2018.  
+See [Generated files](https://github.com/umstek/DengAI/releases/tag/v1) for a complete list of intermediate generated files and submissions.    
 
 
 ## Directory contents  
