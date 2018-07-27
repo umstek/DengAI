@@ -1,17 +1,18 @@
 # DengAI
 
-Open `.ipynb` files with jupyter notebook or alternative.  
-Run `Preprocess.ipynb` to preprocess source files and generate learn-ready files.  
-In jupyterlab, `Run -> Run All` will do this.  
-You can tweak it and make changes and try learning with the resulting files in the `generated` folder.  
-`ModelSelection.ipynb` is supposed to select the best model to use via a Grid Search Cross Validation (hyperparameter optimization) per each model. But it looks like sklearn is suboptimal (or we don't know how to use it).  
-`DengAI.ipynb` is supposed to contain the feature selection, learning and result generation but it has not yet been completed.  
+## 
+### Presentation for CS4622 (Machine Learning)  
 
-You can use other tools to make predictions.  
-Results:  
-Matlab Ensemble Boosted Trees with 5-Fold Cross Validation: Error=24.9663  
-Settings: Iq -> 7 100 0.09, Sj -> 7 100 0.1  
+### Report for CS4622 (Machine Learning)  
 
-Please do not push any **changes** (on master) to these files unless the changes reduce the error.  
-When you are pushing a notebook, please clear all outputs. e.g.: `Edit -> Clear All Outputs`.  
+### Report for CS4642 (Data Mining and Information Retrieval)  
+
+## Directory contents  
++ The `.` root directory contains the data files downloaded from _drivendata_ and some milestone submissions.  
++ `deprecated` folder contains the first approaches to the problem with _Matlab regression learner_ and _Orange3_ (with minimal preprocessing) and the resulting `.csv` files.  
++ `Neural Networks` folder contains the first approaches to the problem with deep neural networks with _Keras_ and _Tensorflow_.  
++ `Negative Binominal Regression` contains the DengAI benchmark model built with _Jupyter Notebook_ and _sklearn_, _statsmodels_ etc.  
++ `Interactive Python 1` contains the approaches that do general preprocessing with _Jupyter Notebook_, _pandas_, _sklearn_, _statsmodels_, _seaborn_ and uses various models for prediction.  
++ `Interactive Python 2` contains a pipeline that processes the files in various stages using _Jupyter Notebook_, _pandas_, _sklearn_, _statsmodels_, _seaborn_, and _R_'s STL (time series decomposition) borrowed with the _r2py_ bridge. This pipeline does preprocessing, visualization, analysing, automatic selection of features, best model selection etc. The best working model is a time series decomposing predicter with a linear regression model.  
++ `Orange` folder contains an Orange3 pipeline that tests cross-validated errors of various learners with preprocessing, feature engineering etc.  
 
