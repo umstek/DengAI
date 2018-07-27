@@ -1,11 +1,11 @@
 # DengAI
 
 ## Reports and Presentations  
-### Presentation for CS4622 (Machine Learning)  
+### [Presentation](https://github.com/umstek/DengAI/blob/master/DengAI.pdf) for CS4622 (Machine Learning)  
 
-### Report for CS4622 (Machine Learning)  
+### [Report](https://github.com/umstek/DengAI/blob/master/Machine%20Learning%20Report%20-%20Group%2030.pdf) for CS4622 (Machine Learning)  
 
-### Report for CS4642 (Data Mining and Information Retrieval)  
+### [Report](https://github.com/umstek/DengAI/blob/master/Data%20Mining%20Report%20-%20Group%2030.pdf) for CS4642 (Data Mining and Information Retrieval)  
 
 
 ## Results  
