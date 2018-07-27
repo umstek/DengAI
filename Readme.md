@@ -1,11 +1,16 @@
 # DengAI
 
-## 
+## Reports and Presentations  
 ### Presentation for CS4622 (Machine Learning)  
 
 ### Report for CS4622 (Machine Learning)  
 
 ### Report for CS4642 (Data Mining and Information Retrieval)  
+
+
+## Results  
+Current best result: 19.3798 (MAE), Rank 89 as of July 27 - 2018.  
+
 
 ## Directory contents  
 + The `.` root directory contains the data files downloaded from _drivendata_ and some milestone submissions.  
